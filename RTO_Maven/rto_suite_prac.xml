@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_RTO" thread-count="3" parallel= "tests">
+
+  <test  name="ChromeTest">
+  <parameter name="browser123" value="Chrome"/>
+    <classes>
+   	  <class name="rto_TestNG_TestClass.VerifyLicenesServices"/>
+      <class name="rto_TestNG_TestClass.VerifyVehicleServices"/>
+    </classes>
+  </test> <!-- Chrome -->
+  
+  <test  name="EdgeTest">
+  <parameter name="browser123" value="Edge"/>
+    <classes>
+   	  <class name="rto_TestNG_TestClass.VerifyLicenesServices"/>
+      <class name="rto_TestNG_TestClass.VerifyVehicleServices"/>
+    </classes>
+  </test> <!-- Edge -->
+  
+  <test  name="FireFoxTest">
+  <parameter name="browser123" value="Firefox"/>
+    <classes>
+   	  <class name="rto_TestNG_TestClass.VerifyLicenesServices"/>
+      <class name="rto_TestNG_TestClass.VerifyVehicleServices"/>
+    </classes>
+  </test> <!-- FireFox -->
+ 
+</suite> <!-- Suite_RTO -->
