@@ -82,7 +82,7 @@ public class FireFoxPractice {
 		
 		String actualURL = "https://sarathi.parivahan.gov.in/sarathiservice/";
 		String acutalTitle = "SarathiOnWeb";
-		String actualPage = "Sarathi";
+//		String actualPage = "Sarathi";
 		
 		Assert.assertEquals(actualURL, currentURL);
 		
